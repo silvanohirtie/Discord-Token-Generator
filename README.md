@@ -7,6 +7,7 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 <h1>Token Generator</h1><br>
 </div>
 Syntax:  
+
 - 2 uppercase letters<br>
 - Random letter, uppercase or lowercase<br>
 - Number or uppercase/lowercase letter<br>
