@@ -18,6 +18,15 @@ Syntax:
 - Dot<br>
 - 27 Random numbers and uppercase/lowercase letters  <br>
 
+## How To use
+Once runned the program you just need to insert the amount of loops you want, 1 loop = 5 tokens  
+Token Type:  
+- First - completely random
+- Second - Starts with MT
+- Third - Starts with NT
+- Fourth - Starts with MD
+- Fifth - Starts with NT  
+This because MT,NT,MD and NT tokens are the most common, this will have a major chance of getting working tokens.
 **Example:**  <br>
 `(EF) (f) (C) (NRJXFAE5DU8HAHI96R5X) (.) (PxwJtS) (.) (tlEI6uRi4EFSNEKzkpWeRQfEgdj)`  <br>
 `EFfCNRJXFAE5DU8HAHI96R5X.PxwJtS.tlEI6uRi4EFSNEKzkpWeRQfEgdj`<br>
