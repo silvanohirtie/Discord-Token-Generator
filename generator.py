@@ -6,8 +6,6 @@ print("NOTE! 1 token loop = 5 Tokens of different types. ")
 N = input("How many tokens loop?: ")
 count = 0
 current_path = os.path.dirname(os.path.realpath(__file__))
-date = date.today()
-now = datetime.datetime.now()
 while(int(count)<int(N)):
     tokens = []
     firstGen = random.choice(string.ascii_letters).upper()+random.choice(string.ascii_letters).upper()+random.choice(string.ascii_letters)+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(21))+"."+ random.choice(string.ascii_letters).upper()+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(5))+"."+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(27))
