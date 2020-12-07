@@ -36,7 +36,6 @@ OR
 pip3 install requests
 ```
 
-
 Once runned the program you just need to insert the amount of loops you want, 1 loop = 5 tokens  
 Token Type:  
 - First - completely random
