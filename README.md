@@ -4,7 +4,7 @@ height="100px"
 width="100px"
 src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720/687474703a2f2f692e696d6775722e636f6d2f65597779386c632e706e67"
 ></img>
-<h1>Token Generator</h1><br>
+<h1>Token Generator and Checker</h1><br>
 </div>
 Syntax:  
 
@@ -30,6 +30,12 @@ MDFdikG8VCwPOAEM22D40si9.D76rfn.t4SWt6RFoYWhlFBRvc8en6Z0zCG
 MTOH5CqGFQNkyIXZUSJYvZbj.Mwhnup.JICfg8UPInb3x2Bze31unJPj3x8  
 UDrvbuE1I1e3nZlSpb9w089Z.DCeI5i.H8NFmr5elG2E8vv5GkDb6D0X1zp  
 ## How To use
+```
+pip install requests
+OR
+pip3 install requests
+```
+
 Once runned the program you just need to insert the amount of loops you want, 1 loop = 5 tokens  
 Token Type:  
 - First - completely random
