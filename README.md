@@ -31,8 +31,8 @@ MTOH5CqGFQNkyIXZUSJYvZbj.Mwhnup.JICfg8UPInb3x2Bze31unJPj3x8
 UDrvbuE1I1e3nZlSpb9w089Z.DCeI5i.H8NFmr5elG2E8vv5GkDb6D0X1zp  
 ## How To use
 ```
-pip3 install -r requirement.txt
-python3 generator.py
+pip install -r requirements.txt OR pip3 install -r requirement.txt
+python generator.py OR python3 generator.py
 ```
 
 Once runned the program you just need to insert the amount of loops you want, 1 loop = 5 tokens  
