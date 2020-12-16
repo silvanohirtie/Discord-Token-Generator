@@ -31,19 +31,18 @@ MTOH5CqGFQNkyIXZUSJYvZbj.Mwhnup.JICfg8UPInb3x2Bze31unJPj3x8
 UDrvbuE1I1e3nZlSpb9w089Z.DCeI5i.H8NFmr5elG2E8vv5GkDb6D0X1zp  
 ## How To use
 ```
-pip install requests
-OR
-pip3 install requests
+pip install -r requirements.txt OR pip3 install -r requirement.txt
+python generator.py OR python3 generator.py
 ```
 
 Once runned the program you just need to insert the amount of loops you want, 1 loop = 5 tokens  
 Token Type:  
 - First - completely random
 - Second - Starts with MT
-- Third - Starts with NT
+- Third - Starts with MT
 - Fourth - Starts with MD
 - Fifth - Starts with NT  
-This because MT,NT,MD and NT tokens are the most common, this will have a major chance of getting working tokens.
+This because MT, NT and MD tokens are the most common, this will have a major chance of getting working tokens.
 
 ## Screenshot:  <br>
 <img src="https://i.imgur.com/U9e1Oat.png"></img><br>
