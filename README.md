@@ -39,9 +39,8 @@ Once runned the program you just need to insert the amount of loops you want, 1 
 Token Type:  
 - First - completely random
 - Second - Starts with MT
-- Third - Starts with MT
-- Fourth - Starts with MD
-- Fifth - Starts with NT  
+- Third - Starts with MD
+- Fourth - Starts with NT  
 This because MT, NT and MD tokens are the most common, this will have a major chance of getting working tokens.
 
 ## Screenshot:  <br>
