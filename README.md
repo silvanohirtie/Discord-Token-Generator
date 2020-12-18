@@ -8,10 +8,7 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 </div>
 Syntax:  
 
-- 2 uppercase letters<br>
-- Random letter, uppercase or lowercase<br>
-- Number or uppercase/lowercase letter<br>
-- Combination of 20 upercase and lowecase letters and numbers<br>
+- User ID Encoded in Base64 (18 numbers) <br />
 - Dot<br>
 - 1 Uppercase letter<br>
 - 5 numbers and uppercase/lowercase letters<br>
