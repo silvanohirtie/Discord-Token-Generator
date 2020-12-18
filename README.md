@@ -6,8 +6,7 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 ></img>
 <h1>Token Generator and Checker</h1><br>
 </div>
-Syntax:<br />
-<br />
+<b>DISCORD TOKEN SYNTAX:</b><br />
 <b>For Sure:</b><br />
 - User ID Encoded in Base64 (18 random digits) <br />
 - Dot<br>  
