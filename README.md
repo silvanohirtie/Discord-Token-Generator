@@ -6,10 +6,12 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 ></img>
 <h1>Token Generator and Checker</h1><br>
 </div>
-Syntax:  
-<b>For Sure:</b>*<br />
+Syntax:<br />
+<br />
+<b>For Sure:</b><br />
 - User ID Encoded in Base64 (18 random digits) <br />
 - Dot<br>  
+<br />
 <b>To Verify:</b><br />  
 - 1 Uppercase letter<br>
 - 5 numbers and uppercase/lowercase letters<br>
