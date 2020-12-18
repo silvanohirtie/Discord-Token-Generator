@@ -21,9 +21,9 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 ODDFOFXUpgf7yEntul5ockCA.OFk6Ph.lmsA54bT0Fux1IpsYvey5XuZk04  
 MTdqrd0vGDV1dcF0QPjom6OB.NQxUhj.I4JjFHIympR3mVF3UiUbbD5VVbi  
 NTzQvPcLBacBmgajXQc7QAaU.XCgboz.c4t51kFWSEmdmaPnKoyUuu8E78E  
+
 ## How To use
-```
-pip install -r requirements.txt OR pip3 install -r requirement.txt
+```pip install -r requirements.txt OR pip3 install -r requirement.txt
 python generator.py OR python3 generator.py
 ```
 
