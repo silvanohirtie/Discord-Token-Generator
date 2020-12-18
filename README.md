@@ -23,7 +23,8 @@ MTdqrd0vGDV1dcF0QPjom6OB.NQxUhj.I4JjFHIympR3mVF3UiUbbD5VVbi
 NTzQvPcLBacBmgajXQc7QAaU.XCgboz.c4t51kFWSEmdmaPnKoyUuu8E78E  
 
 ## How To use
-```pip install -r requirements.txt OR pip3 install -r requirement.txt
+```
+pip install -r requirements.txt OR pip3 install -r requirement.txt
 python generator.py OR python3 generator.py
 ```
 
