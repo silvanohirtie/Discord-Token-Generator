@@ -24,7 +24,7 @@ NTzQvPcLBacBmgajXQc7QAaU.XCgboz.c4t51kFWSEmdmaPnKoyUuu8E78E
 
 ## How To use
 ```bash
-pip install -r requirements.txt OR pip3 install -r requirement.txt
+pip install -r requirements.txt OR pip3 install -r requirements.txt
 python generator.py OR python3 generator.py
 ```
 
