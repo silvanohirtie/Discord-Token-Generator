@@ -12,10 +12,12 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 - Dot<br>  
 <br />
 <b>To Verify:</b><br />  
-- 1 Uppercase letter<br>
-- 5 numbers and uppercase/lowercase letters<br>
+- 1 Uppercase letter, user specific<br>
+- 2 chars (upper/lower case letters, numbers, - or _), user specific<br>
+- 3 chars (upper/lower case letters, numbers, - or _), only user specific for bot accounts<br>
 - Dot<br>
-- 27 Random numbers and uppercase/lowercase letters  <br>
+- 27 Random chars (upper/lower case letters, numbers, - or _)  <br>
+
 <br />
 <b>Examples:</b><br /> 
 ODDFOFXUpgf7yEntul5ockCA.OFk6Ph.lmsA54bT0Fux1IpsYvey5XuZk04  
