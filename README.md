@@ -8,7 +8,7 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 </div>
 <b>DISCORD TOKEN SYNTAX:</b><br />
 <b>For Sure:</b><br />
-- User ID Encoded in Base64 (18 random digits) <br />
+- User ID Encoded in Base64 (24 random digits) <br />
 - Dot<br>  
 <br />
 <b>To Verify:</b><br />  
@@ -18,9 +18,10 @@ src="https://camo.githubusercontent.com/4b028e8e841f57ee96b472fa88ea7ed66ddd3720
 - 27 Random numbers and uppercase/lowercase letters  <br>
 <br />
 <b>Examples:</b><br /> 
-ODDFOFXUpgf7yEntul5ockCA.OFk6Ph.lmsA54bT0Fux1IpsYvey5XuZk04  
-MTdqrd0vGDV1dcF0QPjom6OB.NQxUhj.I4JjFHIympR3mVF3UiUbbD5VVbi  
-NTzQvPcLBacBmgajXQc7QAaU.XCgboz.c4t51kFWSEmdmaPnKoyUuu8E78E  
+MjM5NjE4MjE1NjUxNTgyODE5.PNQC2l.dbA4mKSLsq6gzF73iQ08Z9XOl-x  
+OTM2ODAzNTk4NDIzODkyNTE3.Nlquyt.Y_Aft59qniI3RW8Cc0ZplKDENXQ  
+OTMzNjMxMjQwMzczMzAwMDk0.AjWQrL.LEV452hM8Ir1KG6Avjdm0FRDzW7
+  
 
 ## How To use
 ```bash
